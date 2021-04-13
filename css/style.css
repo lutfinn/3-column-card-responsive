@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 20px;
+}
+@media (min-width: 1024px) {
+  .content {
+    flex-grow: 1;
+    display: flex;
+    max-width: 990px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card {
+  padding: 50px;
+}
+.card h1 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 3em;
+}
+.card p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+}
+.card button {
+  background: #f2f2f2;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: solid #f2f2f2;
+  margin-top: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+@media (min-width: 1024px) {
+  .card button {
+    margin-top: 70px;
+  }
+}
+
+.bright-orange {
+  background: #e38826;
+  border-radius: 10px 10px 0 0;
+}
+.bright-orange button {
+  color: #e38826;
+}
+@media (min-width: 1024px) {
+  .bright-orange {
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+.dark-cyan {
+  background: #006970;
+}
+.dark-cyan button {
+  color: #006970;
+}
+
+.very-dark-cyan {
+  background: #004241;
+  border-radius: 0 0 10px 10px;
+}
+.very-dark-cyan button {
+  color: #004241;
+}
+@media (min-width: 1024px) {
+  .very-dark-cyan {
+    border-radius: 0 10px 10px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
